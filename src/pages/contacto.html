@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link rel="stylesheet" href="../css/FORM.css">
+  <link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../css/main.css">
+  <title>Contactanos</title>
+</head>
+<body>
+  <header>
+    <nav id="nav" class="nav">
+      <a href="/index.html">Inicio</a>
+      <a href="../src/pages/proximo.html">Proximo</a>
+    </nav>
+  
+    <button value="#historial" title="Mostrar historial de compras" aria-label="Mostrar historial de compras"
+      id="history-btn" class="icon vision-btn">
+      ⌛
+    </button>
+  
+    <button value="#cart" title="Ir al carrito de compras" aria-label="Ir al carrito de compras" id="cart-btn"
+      class="icon vision-btn">
+      🛒
+      <b id="items-count-icon">0</b>
+    </button>
+    <h2 class="light">Light</h2>
+    <label class="switch">
+      <input type="checkbox" id="slider" checked />
+      <span class="slider"></span>
+    </label>
+    <h2 class="dark">Dark</h2>
+    <div class="registro">
+      <a href="./src/pages/contacto.html">Contactanos</a>
+    </div>
+  </header>
+  <section class="contact">
+    <div class="u-wrapper">
+      <div class="contact-content">
+
+        <form id="form" action="" class="form">
+          <h3 class="tag"><span>CONTACTANOS</span></h3>
+          <label for="name">Nombre Completo <span>*</span></label>
+          <input name="name" required type="text" id="name" placeholder="Juan">
+          <label for="email">Correo electrónico <span>*</span></label>
+          <input name="email" type="text" id="email" required placeholder="juan@gmail.com">
+          <label for="message">Mensaje</label>
+          <textarea id="message" name="message" id="" cols="30" rows="10"></textarea>
+          <button type="submit" class="btn primary full">enviar mensaje</button>
+        </form>
+        <a href="mailto:desingrdcastex@gmail.com" id="trucazo"></a>
+      </div>
+    </div>
+  </section>
+  <footer>
+    <p>Copyright RDesign &copy; 2023 All Rights Reserved.😁</p>
+  </footer>
+  <script src="../js/contacto.js"></script>
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+  <script src="https://kit.fontawesome.com/0ced445659.js" crossorigin="anonymous"></script>
+  
+  <script src="../src/js/cart.js"></script>
+  <script src="../src/js/product.js"></script>
+  <script src="../src/js/historian.js"></script>
+  <script src="../src/js/dom.js"></script>
+  <script src="../src/js/app.js"></script>
+  <script src="../src/js/carrito.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"
+    integrity="sha512-z4OUqw38qNLpn1libAN9BsoDx6nbNFio5lA6CuTp9NlK83b89hgyCVq+N5FdBJptINztxn1Z3SaKSKUS5UP60Q=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</body>
+</html>
